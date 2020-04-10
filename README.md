@@ -85,7 +85,10 @@ p_value = 0.74.           Decision: Accept the null hypothesis in favor of the a
 
 ### Conclusion & Future Steps:
 
-Although ethnicity may influence the skewness of the data, there are many other variables to consider and drawing conclusions can be difficult. Over the years the SAT has been known to be 'class-biased', that is those with a higher socialeconomic status have an advantage. This may have been a major factor in deciding these changes and a look into this could give more insight into how to structure future standardized tests.
+Definitely, it's hard to say if this drastic change in the SAT was due. Although ethnicity may influence the skewness of the data, there are many other variables to consider and drawing conclusions can be difficult. A look into these additional variables could give more insight into how to structure future standardized tests. 
+
+There is a dichotomy to be noted here though; In the efforts to make the test increasingly fair, there may be a point where the standardized test become less and less meaningful in terms of college admissions process. A thought to think about when a test is meant to separate the supposedly strong students from the average. 
+
 
 Some possible steps to expand on this:
 
