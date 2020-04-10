@@ -50,6 +50,10 @@ Further exploration through pairwise relationships with seaborn pairplot. Did th
 
 The 2017 and 2018 were the only readily available datasets. Albeit a small dataset, comparing the distribution of scores per subject can shed some light on how the immediate effectiveness of the new changes have been.
 
+![alt text](https://github.com/phamc4/SAT_/blob/master/img/2017_2018_Comparison.png)
+
+![alt text](https://github.com/phamc4/SAT_/blob/master/img/pairwise_relationship_latest.png)
+
 
 
 ### Future Steps:
