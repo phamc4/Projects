@@ -25,18 +25,33 @@ The average SAT score for all states over the mentioned time periods are present
 ![alt text](https://github.com/phamc4/SAT_/blob/master/img/AverageSAT2011_2015.png)
 
 
-Exploratory analysis of each block of years shows the non normal and similar distributions. 
+Initially, I was looking into how average test scores changed as time passed and things like SAT specfic tutoring courses and books became more abundant.I was set on comparing the first 6 years to the last 5 the 2400 score was implemented but exploratory analysis of each block of years shows the non normal and similar distributions that wasn't what I expected.
 
 ![alt text](https://github.com/phamc4/SAT_/blob/master/img/Comparison.png)
 
-Checking for possible correlation between subjects. Evident between the distribution of subject scores, writing holds a broader range of scores.
-
-![alt text](https://github.com/phamc4/SAT_/blob/master/img/subject_comparison.png)
-
-Further exploration through pairwise relationships with seaborn pairplot. 
-
-![alt text](https://github.com/phamc4/SAT_/blob/master/img/subject_comparison.png)
-
-Exploratory data on SAT scores by ethnicity to gain insight into the bimodal like shape of the data. 
+Exploratory data on SAT scores by ethnicity to gain insight into the bimodal like shape of the data. As a first instinct, ethnicity and socialeconomic status were the first to come to mind when considering the bimodal skewness. 
 
 ![alt text](https://github.com/phamc4/SAT_/blob/master/img/ethnicity_comparison.png)
+
+Checking for possible correlation between subjects. Evident between the distribution of subject scores, writing holds a broader range of scores. 
+
+![alt text](https://github.com/phamc4/SAT_/blob/master/img/subject_comparison.png)
+
+Further exploration through pairwise relationships with seaborn pairplot. Did this give enough merit to consider the merge of writing and reading in the latest SAT changes?
+
+<!-- ![alt text](https://github.com/phamc4/SAT_/blob/master/img/subject_comparison.png) -->
+
+
+ADD more here
+
+
+### Future Steps:
+
+-Further investigate other factors that prompted the extreme change, such as household income, percentage taking SAT vs ACT, number of people in each ethnicity taking it, etc.
+
+-Implement more complex hypothesis testing on other interesting aspects.
+
+-Consider population density's of states and be more granular with the data such as looking at only a specific state. Can we get more than just averages?
+
+
+
