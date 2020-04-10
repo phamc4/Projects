@@ -37,6 +37,6 @@ Further exploration through pairwise relationships with seaborn pairplot.
 
 ![alt text](https://github.com/phamc4/SAT_/blob/master/img/subject_comparison.png)
 
-Exploratory data on SAT scores by ethnicity to gain insight into the bimodal like shape of the data.
+Exploratory data on SAT scores by ethnicity to gain insight into the bimodal like shape of the data. 
 
-![alt text]()
+![alt text](https://github.com/phamc4/SAT_/blob/master/img/ethnicity_comparison.png)
