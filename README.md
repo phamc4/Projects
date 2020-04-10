@@ -38,7 +38,7 @@ The average SAT score for all states over the mentioned time periods are present
 ![alt text](https://github.com/phamc4/SAT_/blob/master/img/AverageSAT2011_2015.png)
 
 
-Initially, I was looking into how average test scores changed as time passed and things like SAT specfic tutoring courses and books became more abundant.I was set on comparing the first 6 years to the last 5 the 2400 score was implemented but exploratory analysis of each block of years shows the non normal and similar distributions that wasn't what I expected.
+Initially, I was looking into how average test scores changed over time and taking into consideration things such as SAT specific tutoring courses and books take slowly became more abundant. I was set on comparing the first 6 years to the last 5 years the 2400 score was implemented but exploratory analysis of each block of years shows a non normal and similar distributions.
 
 ![alt text](https://github.com/phamc4/SAT_/blob/master/img/Comparison.png)
 
