@@ -3,7 +3,7 @@
 The SAT has been around for as long as we can remember and continues to be a significant benchmark used by college's and universities to select each year's incoming freshman class. However, over the years the test has evolved to better meet educational standards and to reflect the material emphasized by the majority of high schools. In terms of content, the recent change in 2016 has been the most dramatic. 
 
 
-Most evidently, the biggest change was scoring from a max score of 2400 down to a max score of 1600. In addition, the reading and writing sections are joined with the essay being an optional section. Finally, there is no longer a score penalty for incorrect answers, therefore allowing students to answer all the questions, even if they have to guess on some of them.
+Most evidently, the biggest change was scoring from a max score of 2400 down to a max score of 1600. In addition, the reading and writing sections are joined with the essay being an optional section. And finally, there is no longer a score penalty for incorrect answers, therefore allowing students to answer all the questions, even if they have to guess on some of them.
 
 My goal is to examine the SAT scores from 2005-2015 to see if there was any merit in their decision to drastically change such an important piece of college admission process.
 
@@ -13,6 +13,16 @@ The data for this project included multiple datasets from the National Center fo
 
 
 Each year that were separated contained reading, writing, and math columns. Two datasets were created for this analysis, one being the first 6 years from when they started implementing the old scoring of 2400 from 2005-2010 and the last 5 years from 2011-2015.
+
+Datasets included:
+
+-Scores from each State
+    2005-2015
+    
+    2017-2018
+
+-Scores from Ethnicity:
+    2005-2014
 
 #### EDA
 
@@ -52,9 +62,23 @@ The 2017 and 2018 were the only readily available datasets. Albeit a small datas
 
 ![alt text](https://github.com/phamc4/SAT_/blob/master/img/2017_2018_Comparison.png)
 
+
 ![alt text](https://github.com/phamc4/SAT_/blob/master/img/pairwise_relationship_latest.png)
 
+### Hypothesis
 
+Expecting a more normally distributed datasets to work with, I hypothesized the average between the two block of years would be noticeably different and further hypothesis testing could be used to confirm or deny that. As the data was plotted, it was clear the data was far from normal and there a clear indication as to where the answer to my hypothesis was pointing to. Keeping that in mind, I applied some hypothesis testing for validation and completion. 
+
+
+Null Hypothesis: The mean scores from 2005-2010 do not differ from the mean scores from 2011-2015
+
+Alternative Hypothesis: The mean scores from 2005-2010 do differ from the mean scores from 2011-2015
+
+Alpha = 0.20 Note: I intended to set the alpha relatively high as an unusually high increase in mean scores was unlikely(200+)
+
+p_value = 0.74. 
+
+Decision: Accept the null hypothesis 
 
 ### Future Steps:
 
