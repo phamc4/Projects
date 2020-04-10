@@ -17,8 +17,11 @@ Each year that were separated contained reading, writing, and math columns. Two 
 Datasets included:
 
 -Scores from each State
-    2005-2015
+    Reading
+    Writing
+    Math
     
+    2005-2015
     2017-2018
 
 -Scores from Ethnicity:
@@ -67,7 +70,9 @@ The 2017 and 2018 were the only readily available datasets. Albeit a small datas
 
 ### Hypothesis
 
-Expecting a more normally distributed datasets to work with, I hypothesized the average between the two block of years would be noticeably different and further hypothesis testing could be used to confirm or deny that. As the data was plotted, it was clear the data was far from normal and there a clear indication as to where the answer to my hypothesis was pointing to. Keeping that in mind, I applied some hypothesis testing for validation and completion. 
+Expecting a more normally distributed datasets to work with, I hypothesized the average between the two block of years would be noticeably different and further hypothesis testing could be used to confirm or deny that.
+
+As the data was plotted, it was clear the data was far from normal and there a clear indication as to where the answer to my hypothesis was pointing to. Keeping that in mind, I applied some hypothesis testing for validation and completion. 
 
 
 Null Hypothesis: The mean scores from 2005-2010 do not differ from the mean scores from 2011-2015
@@ -76,11 +81,13 @@ Alternative Hypothesis: The mean scores from 2005-2010 do differ from the mean s
 
 Alpha = 0.20 Note: I intended to set the alpha relatively high as an unusually high increase in mean scores was unlikely(200+)
 
-p_value = 0.74. 
+p_value = 0.74.           Decision: Accept the null hypothesis in favor of the alternative. 
 
-Decision: Accept the null hypothesis 
+### Conclusion & Future Steps:
 
-### Future Steps:
+Although ethnicity may influence the skewness of the data, there are many other variables to consider and drawing conclusions can be difficult. Over the years the SAT has been known to be 'class-biased', that is those with a higher socialeconomic status have an advantage. This may have been a major factor in deciding these changes and a look into this could give more insight into how to structure future standardized tests.
+
+Some possible steps to expand on this:
 
 -Further investigate other factors that prompted the extreme change, such as household income, percentage taking SAT vs ACT, number of people in each ethnicity taking it, etc.
 
