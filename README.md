@@ -29,6 +29,10 @@ Initially, I was looking into how average test scores changed as time passed and
 
 ![alt text](https://github.com/phamc4/SAT_/blob/master/img/Comparison.png)
 
+There a couple conclusion we can draw from looking at the overall spread: -The average scores from each block of years do not significantly change as time passes. Average scores are not clustered around the average but tend towards the ends of the distribution.
+
+
+
 Exploratory data on SAT scores by ethnicity to gain insight into the bimodal like shape of the data. As a first instinct, ethnicity and socialeconomic status were the first to come to mind when considering the bimodal skewness. 
 
 ![alt text](https://github.com/phamc4/SAT_/blob/master/img/ethnicity_comparison.png)
@@ -39,10 +43,13 @@ Checking for possible correlation between subjects. Evident between the distribu
 
 Further exploration through pairwise relationships with seaborn pairplot. Did this give enough merit to consider the merge of writing and reading in the latest SAT changes?
 
-<!-- ![alt text](https://github.com/phamc4/SAT_/blob/master/img/subject_comparison.png) -->
+![alt text](https://github.com/phamc4/SAT_/blob/master/img/pairwise_compare_3_subjects.png)
 
 
-ADD more here
+### How does it compare to the new SAT
+
+The 2017 and 2018 were the only readily available datasets. Albeit a small dataset, comparing the distribution of scores per subject can shed some light on how the immediate effectiveness of the new changes have been.
+
 
 
 ### Future Steps:
